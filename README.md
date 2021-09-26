@@ -5,7 +5,7 @@
 * [Algorithm](#algorithm)
 * [Setup](#setup)
 
-This assignment.py is python program to solve the given suduko Problem
+This assignment.py is python program to solve the given sudako Problem
 	
 The given problem or sudako board is hardcorded as input M*N multidimentional array.
    
@@ -30,9 +30,9 @@ The given problem or sudako board is hardcorded as input M*N multidimentional ar
     
     1. Intialize the given input in multidimentional array.
     2. Iterate through each cell until end of that cell (x= M-1,y= N)
-    3. Match the neighbor for (0-9)
+    3. Match the neighbour for (0-9)
     4. If there is no match assign that no to the cell.
-    5. Move to next cell.repeat 3.
+    5. Move to next cell repeat 3.
     6. Any step failed return with error.
     7. On Complte print Solved Sudako Board.
     
