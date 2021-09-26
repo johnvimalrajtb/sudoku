@@ -1,13 +1,13 @@
-#Suduko Solution
+#Sudako Solution
 
 ## Table of contents
 * [Input](#input)
 * [Algorithm](#algorithm)
 * [Setup](#setup)
 
-	This assignment.py is python program to solve the given suduko Problem
+This assignment.py is python program to solve the given suduko Problem
 	
-   The given problem or suduko board is hardcorded as input M*N multidimentional array.
+The given problem or sudako board is hardcorded as input M*N multidimentional array.
    
 ## Input
     Its is an array of [M][N]
@@ -25,16 +25,16 @@
     
 ## Algorithm 
     
-    ![Algorithm Flow Diagram](suduko-flow.PNG)
-    https://drive.google.com/file/d/1uMuff4KJ-XH5OgWjrLk2kL9mzJTwjr6w/view?usp=sharing
+    ![Algorithm Flow Diagram](./suduko-flow.PNG)
+ 
     
-    1. intialize the given input in multidinentional array.
-    2. iterate through each cell until end of that cell(x= M-1,y= N)
+    1. Intialize the given input in multidimentional array.
+    2. Iterate through each cell until end of that cell (x= M-1,y= N)
     3. Match the neighbor for (0-9)
-    4. if there is no match assign that no to the cell
-    5. move to next cell.repeat 3.
+    4. If there is no match assign that no to the cell.
+    5. Move to next cell.repeat 3.
     6. Any step failed return with error.
-    7. On Complte print Solved Suduko Board.
+    7. On Complte print Solved Sudako Board.
     
     
 ```
@@ -47,7 +47,7 @@ $ sh run.sh
 ```
 
 ```
-Output Solved Suduko Board: 
+Output Solved Sudako Board: 
 
 9 3 5 | 1 7 6 | 4 8 2 |
 1 6 7 | 8 4 2 | 3 9 5 |
